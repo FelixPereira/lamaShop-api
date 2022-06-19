@@ -52,6 +52,6 @@ router.post("/login", async (req, res) => {
   } catch(error) {
       console.log(error.message);
   }
-})
+});
 
 module.exports = router;
